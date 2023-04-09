@@ -1,0 +1,99 @@
+/**
+*
+* Admin CSS
+*
+**/
+
+
+/* Back office product admin tabs */
+@import 'cpm-admin-tabs.css';
+
+
+/* Back office product admin tabs */
+@import 'cpm-admin-buttons.css';
+
+
+#custom_produts_manager img {
+    width:300px;
+    height:300px;
+    object-fit: contain!important;
+}
+
+
+
+/* TOP DIV info & button */
+.top_info_div {
+    margin-top: 15px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
+}
+
+/* Fade in top_info_div */
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+} 
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+} 
+
+/* Icon & btn top div */
+.title_fa {
+    margin: 3px 6px 0px 3px;}
+
+#top_preview_btn {margin-top:-5px!important;}
+
+
+/* Field info div */
+
+
+.cpm_info_field {
+    float:left;
+    width: 50%;
+    padding: 2px 6px;
+   /* border: 1px solid #c5c5c5;
+    border-radius:3px;
+    background-color: #f6f6f6;*/
+}
+
+
+
+
+/* Admin help tip*/
+.woocommerce-help-tip.cpm {
+    margin-top:-5.5px!important;}
+
+
+/* Mimes types checkboxes */
+/*
+.file_types_chk button {
+    display:inline-block;
+    vertical-align: unset!important;
+    margin: 0 6px 0 0!important;
+}*/
+
+._check_all {
+    margin:10px 0 6px 0!important;
+}
+
+.op1_mimes_checkboxes:checked:before,
+.op2_mimes_checkboxes:checked:before {
+    background: rgb(105, 214, 72) !important;
+    /* content: ""!important;*/
+    border-radius: 3px;
+}
+
+.op1_mimes_checkboxes,
+.op2_mimes_checkboxes {
+    color: #fff !important;
+   background:rgb(233, 56, 56) !important;
+}
+
+
+.tabcontent input + .iris-picker {
+    margin:45px 0 0 0!important;
+}
+

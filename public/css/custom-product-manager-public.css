@@ -1,0 +1,17 @@
+/*
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ *
+ * Jquery-ui.css => import of JQuery ui default CSS for radio buttons, checkbox buttons, buttons, select and cart accordion
+ *
+ */
+
+@import 'jquery-ui.css';
+
+/* CSS for the image switcher */
+@import 'cpm_img_swap.css';
+
+/* CSS for displaying the options in the cart page */
+@import 'cpm_cart.css';
+
+

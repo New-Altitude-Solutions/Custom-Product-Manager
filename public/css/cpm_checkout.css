@@ -1,0 +1,16 @@
+.product-name h3 {
+    font-size: 19px !important;
+}
+
+.product-name {
+    font-size: .9em !important;
+    width: 80% !important;
+}
+
+.product_options {
+    width: 130% !important;
+}
+
+.product_options img {
+    vertical-align: text-top;
+}
